@@ -22,57 +22,63 @@
 
 
     <div class="head text-center " style=" width: 15px;margin: auto; margin-top: 2em;margin-bottom: 2em;>
-    <a href=" # "></div><img src="https://images.unsplash.com/photo-1555397430-57791c75748a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGNpdGllc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60 " alt="scarlet-josephine-font " border="0 "></a>
+     <a href=" # "></div><img src="https://images.unsplash.com/photo-1555397430-57791c75748a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGNpdGllc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60 " alt="scarlet-josephine-font " border="0 "></a>
+     <a href=" # "></div><img src="https://images.unsplash.com/photo-1455659817273-f96807779a8a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGZsb3dlcnN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60 " alt="scarlet-josephine-font " border="0 "></a>
+     <a href=" # "></div><img src="https://images.unsplash.com/photo-1510784722466-f2aa9c52fff6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fG5hdHVyZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60 " alt="scarlet-josephine-font " border="0 "></a>
+     <a href=" # "></div><img src=" https://images.unsplash.com/photo-1512632578888-169bbbc64f33?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGR1YmFpfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60 "  alt="scarlet-josephine-font " border="0 "> </a>
+     <a href=" # "></div><img src="https://images.unsplash.com/photo-1521185496955-15097b20c5fe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8cHJvZ3JhbW1pbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60 " alt="scarlet-josephine-font " border="0 "></a>
+    <a href=" # "></div><img src="https://images.unsplash.com/photo-1551972251-12070d63502a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8dGlnZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60 " alt="scarlet-josephine-font " border="0 "></a>
+    <a href=" # "></div><img src="https://images.unsplash.com/photo-1543996991-8e851c2dc841?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHJvYWRzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60 " alt="scarlet-josephine-font " border="0 "></a>
+    
+</div>
 
-    </div>
-
-    <div class="row super " style="width: 80%;margin: auto; ">
-        <hr /> {% for img in images%}
-        <div class="col-lg-3 col-md-3 ">
-            <a href="#{{img.id}} " data-toggle="modal " data-target="#{{img.id}} ">
-                <img src="{{img.image.url}} " class="img-responsive " alt="{{image.name}} " style="width:100%;width:100% ">
-                <h5 class="text-center ">{{img.image_name}}</h5>
-            </a>
-            <div class="modal fade " id="{{img.id}} " role="dialog ">
-                <div class="modal-dialog modal-xl ">
-                    <div class="modal-content ">
-                        <div class="modal-header ">
-                            <button type="button " class="close " data-dismiss="modal ">&times;</button>
-                            <h4 class="modal-title ">{{img.image_name}}</h4>
-                            <img src="{{img.image.url}} " class="img-responsive " alt="Image " style="width:100%;max-width:100% ">
-                        </div>
-                        <hr>
-                        <div class="modal-body ">
-                            <p class="text-justify ">{{img.description}}</p>
-                            <p class="text-left "><b>Location:</b> {{img.location}}</p>
-                            <p class="text-left "><b>Category:</b> {{img.category}}</p>
-                        </div>
-                        <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 padding-1 ">
-                            <input id="{{img.id}}-url " class="form-control input-md responsive " type="text " value="{{img.image.url}} ">
-                        </div>
-
-                        <button type="button " onclick="copyToClipboard(); ">Copy</button>
-
-                        <script>
-                            function copyToClipboard() {
-                                var copyText = document.getElementById("{{img.id}}-url ");
-                                copyText.select();
-                                copyText.setSelectionRange(0, 99999)
-                                document.execCommand("copy ");
-                                alert('url copied');
-                            }
-                        </script>
-                        <div class="modal-footer ">
-                            <button type="button " class="btn btn-default " data-dismiss="modal ">Close</button>
-                        </div>
+<div class="row super " style="width: 80%;margin: auto; ">
+    <hr /> {% for img in images%}
+    <div class="col-lg-3 col-md-3 ">
+        <a href="#{{img.id}} " data-toggle="modal " data-target="#{{img.id}} ">
+            <img src="{{img.image.url}} " class="img-responsive " alt="{{image.name}} " style="width:100%;width:100% ">
+            <h5 class="text-center ">{{img.image_name}}</h5>
+        </a>
+        <div class="modal fade " id="{{img.id}} " role="dialog ">
+            <div class="modal-dialog modal-xl ">
+                <div class="modal-content ">
+                    <div class="modal-header ">
+                        <button type="button " class="close " data-dismiss="modal ">&times;</button>
+                        <h4 class="modal-title ">{{img.image_name}}</h4>
+                        <img src="{{img.image.url}} " class="img-responsive " alt="Image " style="width:100%;max-width:100% ">
+                    </div>
+                    <hr>
+                    <div class="modal-body ">
+                        <p class="text-justify ">{{img.description}}</p>
+                        <p class="text-left "><b>Location:</b> {{img.location}}</p>
+                        <p class="text-left "><b>Category:</b> {{img.category}}</p>
+                    </div>
+                    <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 padding-1 ">
+                        <input id="{{img.id}}-url " class="form-control input-md responsive " type="text " value="{{img.image.url}} ">
                     </div>
 
-                </div>
-            </div>
+                    <button type="button " onclick="copyToClipboard(); ">Copy</button>
 
+                    <script>
+                        function copyToClipboard() {
+                            var copyText = document.getElementById("{{img.id}}-url ");
+                            copyText.select();
+                            copyText.setSelectionRange(0, 99999)
+                            document.execCommand("copy ");
+                            alert('url copied');
+                        }
+                    </script>
+                    <div class="modal-footer ">
+                        <button type="button " class="btn btn-default " data-dismiss="modal ">Close</button>
+                    </div>
+                </div>
+
+            </div>
         </div>
-        {%endfor%}
+
     </div>
+    {%endfor%}
+</div>
 </div>
 <!-- <footer class="footer text-center " style="margin-top: 20px; "> -->
 <!-- <a href="# "><img src="https://fontmeme.com/permalink/211128/543506d7e84f310a184590cf89415062.png " alt="scarlet-josephine-font " border="0 "></a>   -->
