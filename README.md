@@ -20,3 +20,4 @@ username : `hawa`
 password : `2444`
 
 ## Installation and setup instructions
+Clone this repo: git clone
