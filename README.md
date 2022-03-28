@@ -21,4 +21,4 @@ password : `2444`
 
 ## Installation and setup instructions
 1. Clone this repo: git clone
-The repo comes in a zipped or compressed format. Extract to your prefered location and open it.
+2. The repo comes in a zipped or compressed format. Extract to your prefered location and open it.
