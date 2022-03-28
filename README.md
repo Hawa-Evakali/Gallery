@@ -15,3 +15,6 @@ As a user of the application you will be able to:
 View photos based on the location they were taken or category.
 
 ## Admin Dashboard
+username : `hawa`
+
+password : `2444`
