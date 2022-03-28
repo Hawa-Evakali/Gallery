@@ -58,4 +58,3 @@ ailabeyqute@gmail.com
 https://gal54.herokuapp.com/
 
 
-g
