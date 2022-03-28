@@ -23,4 +23,4 @@ password : `2444`
 1. Clone this repo: git clone
 2. The repo comes in a zipped or compressed format. Extract to your prefered location and open it.
 3. open your terminal and navigate to gallery then create a virtual environment.
-To run the app, you'll have to run the following commands in your terminal
+4. To run the app, you'll have to run the following commands in your terminal
