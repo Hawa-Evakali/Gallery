@@ -40,3 +40,14 @@ python3.8 manage.py migrate
 python manage.py runserver
 
 8. Use the navigation bar/navbar/navigation pane/menu to navigate and explore the app.
+
+## TECHNOLOGIES USED
+* Python3.8
+* Django
+* Heroku
+* HTML
+* CSS
+
+## Known Bugs
+* There are no known bugs currently but pull requests are allowed incase you spot a bug
+
