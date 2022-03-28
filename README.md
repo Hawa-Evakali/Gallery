@@ -18,3 +18,5 @@ View photos based on the location they were taken or category.
 username : `hawa`
 
 password : `2444`
+
+## Installation and setup instructions
