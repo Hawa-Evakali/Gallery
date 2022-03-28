@@ -51,3 +51,8 @@ python manage.py runserver
 ## Known Bugs
 * There are no known bugs currently but pull requests are allowed incase you spot a bug
 
+## CONTACTS
+ailabeyqute@gmail.com
+
+## LIVE LINK 
+https://gal54.herokuapp.com/
