@@ -1,2 +1,5 @@
 ## PROJECT NAME
 * GALLERY
+
+## AUTHOR
+* Hawa Evakali
